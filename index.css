@@ -1,0 +1,166 @@
+.thematic-purple {
+  color: #6610f2;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+h1.page-title {
+  margin-top: 10px;
+  /* font-size: 72px;
+  background: -webkit-linear-gradient(
+    90deg,
+    rgba(255, 255, 255, 1) 0%,
+    rgba(211, 93, 228, 1) 90%,
+    rgba(84, 9, 121, 1) 100%
+  );
+  background-clip: text;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent; */
+}
+
+img {
+  max-height: 60vh;
+  max-width: 60vw;
+  border-radius: 20px;
+}
+
+div.socials i {
+  font-size: x-large;
+}
+
+i,
+svg {
+  font-size: large;
+}
+
+table {
+  width: 70%;
+}
+
+table.contacts {
+  width: 50%;
+}
+
+table * {
+  padding: 10px;
+}
+
+/* https://www.w3schools.com/css/css_table.asp */
+/* table tr:nth-child(odd) {
+  background-color: rgba(145, 139, 255, 0.5);
+}
+
+table tr:nth-child(even) {
+  background-color: rgba(195, 189, 255, 0.5);
+} */
+
+section {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+div.subsection {
+  width: 50%;
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: blue 1px solid; */
+}
+
+.pill {
+  /* background-color: hotpink; */
+  background: -webkit-linear-gradient(
+    240deg,
+    rgba(102, 16, 242, 1) 0%,
+    rgba(102, 16, 242, 0.5) 90%,
+    rgba(102, 16, 242, 0.2) 100%
+  );
+  border-radius: 20px;
+  padding: 10px;
+  color: white;
+  text-align: center;
+}
+
+div.edu {
+  min-width: 30vw;
+  min-height: 60vh;
+  margin: 10px;
+  text-align: center;
+}
+
+div.edu img {
+  margin: auto;
+  padding: 2rem;
+  width: initial;
+  max-width: 20vw;
+  min-height: 30vh;
+  max-height: 50vh;
+}
+
+div.uitm {
+  min-width: 30vw;
+  min-height: 60vh;
+  margin: 10px;
+  text-align: center;
+}
+
+div.uitm img {
+  margin: auto;
+  padding: 2rem;
+  width: initial;
+  min-width: 20vw;
+  min-height: 30vh;
+  max-height: 50vh;
+}
+
+section.gallery img {
+  margin: 1px;
+}
+
+.experience ul {
+  list-style-type: none;
+}
+
+.experience img {
+  max-width: 20vw;
+}
+
+#uitm-map {
+  width: 100%;
+  text-align: center;
+}
+
+#uitm-osm-map {
+  min-width: 100%;
+}
+
+@media screen and (max-width: 480px) {
+  section {
+    width: 100%;
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  table {
+    width: 100%;
+  }
+
+  div.subsection {
+    width: 100%;
+  }
+}
